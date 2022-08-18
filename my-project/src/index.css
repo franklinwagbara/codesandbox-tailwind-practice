@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "KingandQueenDemo";
+  src: url("webFonts/KingandQueenDemo/font.woff2") format("woff2"),
+    url("webFonts/KingandQueenDemo/font.woff") format("woff");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
