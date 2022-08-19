@@ -10,7 +10,7 @@ import Footer from "./containers/Footer";
 
 function App() {
   return (
-    <div className="bg-gray-100 font-king">
+    <div className="bg-gray-100 max-w-screen-lg h-fit mx-auto font-king flex flex-col">
       <Header />
       <BannerSection />
       <SpecialSection />

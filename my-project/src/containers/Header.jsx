@@ -2,7 +2,7 @@ import "./styles/Header.css";
 
 const Header = () => {
   return (
-    <div className="flex justify-between px-12 py-6 md:px-96">
+    <div className="flex justify-between px-12 py-6 md:px-16">
       <div className="logo">
         <h1 className="text-2xl">Glow</h1>
         <div className="w-3 h-3 rounded-full bg-primary "></div>
@@ -27,17 +27,16 @@ const Header = () => {
               1
             </div>
             <svg
-              className="w-4"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
+              className="h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              stroke-width="2"
+              strokeWidth="2"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
               />
             </svg>

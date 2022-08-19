@@ -11,6 +11,18 @@ module.exports = {
       fontFamily: {
         king: ["KingandQueenDemo"],
       },
+
+      borderWidth: {
+        1: "1px",
+      },
+
+      width: {
+        model: "50rem",
+      },
+
+      height: {
+        banner: "33rem",
+      },
     },
   },
   plugins: [],
